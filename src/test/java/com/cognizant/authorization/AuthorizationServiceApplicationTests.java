@@ -8,14 +8,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class AuthorizationServiceApplicationTests {
 
 	@Test
-	public void main2() {
+	public void main() {
 
 		SpringApplication.run(AuthorizationServiceApplication.class, new String[] {});
 	}
-
-	@Test
-	public void main() {
-		AuthorizationServiceApplication.main(new String[] {});
-	}
+//
+//	@Test
+//	public void main() {
+//		AuthorizationServiceApplication.main(new String[] {});
+//	}
 
 }
